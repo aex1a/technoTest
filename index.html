@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Shopping Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="vid">
+        <video src="enter.mp4" autoplay muted></video>
+        <video id="thirdVideo" src="rest2.mp4" autoplay muted style="display: none;"></video>
+        <video id="fourthVideo" src="flash.mp4" autoplay muted style="display: none;"></video>
+        
+        <h1 class="wel">Welcome to SM TARLAC</h1>
+        <button id="hamburgerMenu" class="hamburger">☰</button>
+        <div id="menu" class="menu">
+            <p class="clickable" id="goToRestRoom1">Go to Rest Room (Ground Floor) <br> -if you're at the entrance-</p>
+            <hr>
+            <p class="clickable" id="goToRestRoom2">Go to Rest Room (2nd Floor) <br> -if you came from the 1st floor restroom-</p>
+            <hr>
+            <p class="clickable" id="goToFlash">Go to Flash Studio (2nd Floor) <br> -if you came from the 2nd floor restroom-</p>
+            <hr>
+        </div>
+        <video src="2.mp4" id="secondVideo" autoplay loop style="display: none;"></video>
+        <button id="goBackButton" style="display: none;">Go Back to Entrance</button>
+        <div id="blackOverlay"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
